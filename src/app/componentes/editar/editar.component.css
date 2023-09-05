@@ -1,0 +1,51 @@
+.editar_componente{
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  height: auto;
+  justify-content: center;
+  border-radius: 20px;
+  padding-top:  5px;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  margin-right: 0px;
+  padding-right: 25px;
+}
+
+.cores{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 55px;
+}
+.bolinha{
+  width: 28px;
+  height: 28px;
+  border-radius: 50px;
+}
+#cor_vermelha{
+  background-color: #FD7E7E;
+}
+#cor_amarela{
+  background-color: #FDE17E;
+}
+#cor_verde{
+  background-color: #AEFD7E;
+}
+#cor_azul{
+  background-color: #7EE6FD;
+}
+#cor_roxa{
+  background-color: #F37EFD;
+}
+.itens_editar{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: fit-content;
+}
+
+.fitcontent{
+  width: fit-content;
+}

@@ -1,0 +1,19 @@
+<section class="nota_criada">
+  <div class="itens_criados">
+    <div class="cabecalho_criado {{nota.tipo}}">
+      <div class="botaos_cabecalho">
+       <button class="button"><img id="caneta_botao" src="../../../assets/imgs/editar_caneta.png" alt="editar caneta"></button>
+      <button class="button"><img src="../../../assets/imgs/Fechar_icon.png" alt="fechar painel"></button>
+      </div>
+      <h1 class="titulo_texto">{{nota.titulo}}</h1>
+    </div>
+    <div class="texto_criado {{nota.tipo}}" [ngClass]="tamanhoNota()">
+      <p class="texto_linhas {{nota.tipo}}">
+        {{nota.conteudo}}
+      </p>
+    </div>
+    <div class ="footer">
+     <button class="button"><img id="lixinho" src="../../../assets/imgs/delete-iocon.png" alt="lixinho"></button>
+    </div>
+  </div>
+</section>

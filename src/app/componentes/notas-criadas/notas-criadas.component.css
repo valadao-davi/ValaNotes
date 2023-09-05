@@ -1,0 +1,58 @@
+.nota_criada{
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 141px;
+  background-color: #c0f4fc;
+  width: 500px;
+  height: auto;
+  min-height: 80px;
+  padding: 30px;
+  border-radius: 25px;
+}
+.itens_criados{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.cabecalho_criado{
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  justify-content: space-between;
+}
+.botaos_cabecalho{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#caneta_botao{
+  width: 20px;
+  height: 20px;
+}
+
+.texto_criado{
+  display: flex;
+  flex-direction: column;
+  width: 425px;
+  height: 100px;
+}
+.texto_linhas{
+  text-align: flex-start;
+  font-size: 15px;
+  margin: 0;
+}
+.titulo_texto{
+  margin: 0px;
+  font-size: 20px;
+}
+#lixinho{
+  width: 20px;
+  height: 25px;
+}
+.footer{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}

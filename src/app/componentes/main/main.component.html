@@ -1,0 +1,22 @@
+<main>
+  <div class="lado_criar_nota">
+    <div class="criar_nota">
+      <div class="itens_criar">
+       <button class="button" routerLink="/criar-nota"><img id="criar_item" src="../../../assets/imgs/icon-maisinho.png" alt="icone_criar"></button>
+        <h2>Criar uma nota...</h2>
+      </div>
+    </div>
+  </div>
+  <div class="lado_notas_criadas">
+    <ng-template #semNotas>
+      <div class="naoHanotas">
+        <h2>Não há notas =( </h2>
+      </div>
+    </ng-template>
+    <div *ngIf="listaNotas.length > 0,else semNotas" >
+      <div *ngFor="let nota of listaNotas">
+        <app-notas-criadas [nota]= "nota"></app-notas-criadas>
+      </div>
+    </div>
+  </div>
+</main>

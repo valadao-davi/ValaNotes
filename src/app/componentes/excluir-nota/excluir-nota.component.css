@@ -1,0 +1,59 @@
+.caixa_confirm{
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  padding: 15px;
+  width: 400px;
+  border-radius: 20px;
+  align-items: center;
+  padding: 24px 30px 25px 20px;
+  box-shadow: 13px 31px 15px -3px rgba(0,0,0,0.1);
+}
+.itens_confirm{
+  display: flex;
+  flex-direction: column;
+  display: flex;
+  width: 320px;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+.opcoes{
+  display: flex;
+  flex-direction: row;
+  gap: 37px;
+  align-items: center;
+  justify-content: flex-start;
+
+}
+.fitcontent{
+  width: fit-content;
+}
+
+.cabecalho_titulo{
+  width: fit-content;
+}
+.opcao_1{
+  display: flex;
+  height: 34px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background: rgba(126, 230, 253, 0.50);
+}
+.botao{
+  display: flex;
+  width: 105px;
+  height: 31px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

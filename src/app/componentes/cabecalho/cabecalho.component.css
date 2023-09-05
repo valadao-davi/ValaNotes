@@ -1,0 +1,65 @@
+.cabecalho{
+  display: flex;
+  background-color: #c0f4fc;
+  flex-direction: row;
+  align-items: center;
+  height: 93px;
+  justify-content: space-around;
+}
+.div-esquerda{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 60%;
+  margin-right: 300px;
+}
+.imgs_cabecalho{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  font-weight: 700;
+}
+.imgs_insert{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 28px;
+}
+.img_logo{
+  width: 42px;
+  height: 42px;
+}
+.img_menu{
+  width: 20px;
+  height: 20px;
+}
+
+.barra_de_pesquisa{
+  background-color: white;
+  border-radius: 12px;
+  width: 573px;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  height: fit-content;
+}
+.itens_pesquisa{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 26px;
+}
+.pesquisar_text{
+  font-size: 16px;
+}
+.lupa_img{
+  width: 30px;
+  height: 27px;
+}
+.icones_navegar{
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}

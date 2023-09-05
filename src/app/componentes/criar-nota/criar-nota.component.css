@@ -1,0 +1,48 @@
+.CriarNota{
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 141px;
+  background-color: #c0f4fc;
+  width: 500px;
+  height: auto;
+  min-height: 80px;
+  padding: 30px;
+  border-radius: 25px;
+}
+.cimaDiv{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+#titulo_criar{
+  margin: 0px;
+  font-size: 20px;
+}
+#texto_criar{
+  margin: 0px;
+  font-size: 15px;
+}
+.itensCima{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.baixoDiv{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+#concluir_icon{
+  width: 30px;
+  height: 20px;
+}
+.img_Tzao{
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-self: center;
+}
+
