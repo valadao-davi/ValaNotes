@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Nota } from '../nota';
 
 @Component({
   selector: 'app-notas-criadas',
@@ -6,7 +7,8 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./notas-criadas.component.css']
 })
 export class NotasCriadasComponent {
-  @Input() nota ={
+  @Input() nota:Nota ={
+      id: 0,
       titulo: "BBB",
       conteudo: "DEU CERTO",
       tipo: "tipo2"

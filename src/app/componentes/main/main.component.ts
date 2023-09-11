@@ -1,5 +1,6 @@
 
 import { Component, Input } from '@angular/core';
+import { Nota } from '../nota';
 
 @Component({
   selector: 'app-main',
@@ -10,7 +11,7 @@ export class MainComponent {
 
   semNotas:string = "Não há notas";
 
-  listaNotas = [
+  listaNotas:Nota[] = [
     {
       titulo: "BBB",
       conteudo: "DEU CERTO",
